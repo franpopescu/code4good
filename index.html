@@ -17,6 +17,9 @@
     <!-- Custom styles for this template -->
     <link href="custom-css/carousel.css" rel="stylesheet">
     <link href="custom-css/custom.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="buttons/css/style.css" />
+	<link rel="stylesheet" type="text/css" href="buttons/css/generic.css" />
+	<script type='text/javascript' src='buttons/js/select_demo2.js'></script>
   </head>
 <!-- NAVBAR
 ================================================== -->
@@ -115,18 +118,19 @@
         <a id="slider" href="#map"class="glyphicon glyphicon-chevron-down glyph animated"></a>
       </div>
     </div>
-
+ <div id="criteria">
     <section class="demo">
         <div class="container">
           <div class="row">
             <div class="twelvecol">
               <div class="content">
+				<div class="trigger_demo2">
 
     <!-- Here we start to build the actual dropdown form-->
     <form action="#">
       <p>
         <label class="label">Region:</label>
-        <select class="turnintodropdown">
+        <select class="turnintodropdown_demo2">
           <option>Please select a continent:</option>
             <option>Europe</option>
               <option>America</option>
@@ -136,25 +140,26 @@
         </select>
       </p>
     </form>
-    <!--Here we end the form -->
-
-            </div><!-- .content -->
-          </div><!-- .twelvecol -->
-        </div><!-- .row -->
-      </div><!-- .container --> 
-    </section>  
-
-
-    <section class="demo">
+		
+				</div> <!-- .trigger_demo2 -->
+              </div><!-- .content -->
+            </div><!-- .twelvecol -->
+          </div><!-- .row -->
+        </div><!-- .container --> 
+  </section> 
+	
+	
+      <!-- Here we start to build the actual dropdown form in
+      which we can use scroll function-->
+	      <section class="demo">
         <div class="container">
           <div class="row">
             <div class="twelvecol">
               <div class="content">
-      <!-- Here we start to build the actual dropdown form in
-      which we can use scroll function-->
+				<div class="trigger_demo2">
               <form action="">
                 <p>
-                  <label class="label">A NAME WILL BE HERE:</label>
+                  <label class="label">Country:</label>
                   <select class="turnintodropdown_demo2">
                     <option>Please select a country:</option>
                       <option>Austria</option>
@@ -188,12 +193,99 @@
                   </select>
                 </p>
               </form>
-
+			  
+				</div> <!-- .trigger_demo2 -->
               </div><!-- .content -->
             </div><!-- .twelvecol -->
           </div><!-- .row -->
         </div><!-- .container --> 
-  </section>  
+  </section> 
+    <section class="demo">
+        <div class="container">
+          <div class="row">
+            <div class="twelvecol">
+              <div class="content">
+				<div class="trigger_demo2">
+			  <form action="#">
+					<p>
+						<label class="label">Gender:</label>
+							<select class="turnintodropdown_demo2">
+							<option>Please select a Gender:</option>
+								<option>All</option>
+								<option>Female</option>
+								<option>Male</option>
+								<option>Organisation</option>
+							</select>
+					</p>
+			</form>
+						
+				</div> <!-- .trigger_demo2 -->
+              </div><!-- .content -->
+            </div><!-- .twelvecol -->
+          </div><!-- .row -->
+        </div><!-- .container --> 
+  </section> 
+ 
+      <section class="demo">
+        <div class="container">
+          <div class="row">
+            <div class="twelvecol">
+              <div class="content">
+				<div class="trigger_demo2">
+			  <form action="#">
+					<p>
+						<label class="label">Year From:</label>
+							<select class="turnintodropdown_demo2">
+								<option>Please select a date:</option>
+								<option>1901</option>
+								<option>1902</option>
+								<option>1903</option>
+								<option>1904</option>
+								<option>1905</option>
+								<option>1906</option>
+								<option>1907</option>
+							</select>
+					</p>
+			</form>
+	
+				</div> <!-- .trigger_demo2 -->
+              </div><!-- .content -->
+            </div><!-- .twelvecol -->
+          </div><!-- .row -->
+        </div><!-- .container --> 
+  </section> 
+  
+  <section class="demo">
+        <div class="container">
+          <div class="row">
+            <div class="twelvecol">
+              <div class="content">
+				<div class="trigger_demo2">
+			  <form action="#">
+					<p>
+						<label class="label">Year To:</label>
+							<select class="turnintodropdown_demo2">
+								<option>Please select a date:</option>
+								<option>2014</option>
+								<option>2013</option>
+								<option>2012</option>
+								<option>2011</option>
+								<option>2010</option>
+								<option>2009</option>
+							</select>
+					</p>
+			</form>
+	
+				</div> <!-- .trigger_demo2 -->
+              </div><!-- .content -->
+            </div><!-- .twelvecol -->
+          </div><!-- .row -->
+        </div><!-- .container --> 
+  </section> 
+</div> 
+</div>  
+
+ 
 
   <div id="map">
     <div id="map_canvas"></div>
