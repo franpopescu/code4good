@@ -1,3 +1,21 @@
 .logo {
 	width: 75%;
 }
+
+@font-face {
+    font-family: "Miama"; /*a name to be used later*/
+    src: url("../dist/fonts/Miama.ttf"); /*URL to font*/
+}
+
+.laureates {
+	font-family: "Miama";
+	font-size: 400%;
+	padding-top: 30%;
+	color: #000000;
+	text-shadow: 2px 2px 8px #ffffff;
+}
+
+.carousel-text {
+	color: #000000;
+	text-shadow: 2px 2px 8px #ffffff;
+}
