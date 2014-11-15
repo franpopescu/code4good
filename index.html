@@ -123,8 +123,14 @@
 
       <!-- START THE FEATURETTES -->
 
-      <div class="container">
-
+      <div class="container" id="map">
+        <iframe
+          width="600"
+          height="450"
+          frameborder="0" style="border:0"
+          src="https://www.google.com/maps/embed/v1/place?key=API_KEY
+            &q=Space+Needle,Seattle+WA">
+        </iframe>
       </div>
 
 
@@ -147,5 +153,6 @@
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
     <script src="dist/js/custom.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js"></script>
   </body>
 </html>
