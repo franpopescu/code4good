@@ -1,0 +1,42 @@
+.logo {
+	width: 75%;
+}
+
+@font-face {
+    font-family: "Miama"; /*a name to be used later*/
+    src: url("../dist/fonts/Miama.ttf"); /*URL to font*/
+}
+
+.laureates {
+	font-family: "Miama";
+	font-size: 400%;
+	padding-top: 30%;
+	color: #000000;
+	text-shadow: 2px 2px 8px #ffffff;
+}
+
+.carousel-text {
+	color: #000000;
+	text-shadow: 2px 2px 8px #ffffff;
+}
+
+.animated {
+    -webkit-transition-property: -webkit-transform;
+    -webkit-transition-duration: 1s;
+    -moz-transition-property: -moz-transform;
+    -moz-transition-duration: 1s;
+}
+
+.cover-divider {
+	padding-top: 10%;
+}
+
+#slide-down {
+	text-align:	center;
+
+}
+
+.glyph {
+	font-size: 300%;
+	text-align: center;
+}
