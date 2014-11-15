@@ -119,12 +119,17 @@
 
     <section class="demo">
         <div class="container">
+
+        <div class="modal-body">
+         <div class="first-column">
+             <!-- Your first column here -->
+
           <div class="row">
             <div class="twelvecol">
               <div class="content">
       <!-- Here we start to build the actual dropdown form in
       which we can use scroll function-->
-              <form action="">
+              <form action="" id="map">
                 <p>
                   <label class="label">Region:</label>
                   <select class="turnintodropdown_demo2">
@@ -212,16 +217,22 @@
 
 
               </form>
+              </div>
 
               </div><!-- .content -->
             </div><!-- .twelvecol -->
           </div><!-- .row -->
+          <div class="second-column">
+           <!-- Your second column here -->
+              <div>
+                <div id="map_canvas"></div>
+              </div>
+          </div>
+      </div>
+
         </div><!-- .container --> 
   </section>  
 
-  <div id="map">
-    <div id="map_canvas"></div>
-  </div>
 
       <!-- FOOTER -->
     <footer>
